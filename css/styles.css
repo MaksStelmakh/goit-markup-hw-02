@@ -7,6 +7,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .second-logo {
@@ -16,6 +17,11 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .nav-link {
@@ -25,6 +31,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -39,6 +46,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .commun-link:hover,
@@ -160,6 +168,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .second-logo-footer {
@@ -169,6 +178,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .contact-address {
@@ -187,6 +197,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /*========End-Footer=======*/
@@ -231,6 +242,10 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.projects-link {
+  text-decoration: none;
 }
 
 /*=======End-proects========*/
