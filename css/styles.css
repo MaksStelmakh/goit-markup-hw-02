@@ -1,3 +1,9 @@
+:root {
+  --color: #212121;
+  --second-color: #757575;
+  --accent-color: #2196f3;
+}
+
 /*=======head=======*/
 
 .first-logo {
@@ -6,7 +12,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -30,13 +36,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color);
   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .commun-link {
@@ -45,20 +51,20 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-color);
   text-decoration: none;
 }
 
 .commun-link:hover,
 .commun-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*=======End-head=======*/
 
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--color);
 }
 
 /*=======Main-Info======*/
@@ -88,7 +94,7 @@ body {
   border-radius: 4px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -109,7 +115,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 
 /*=======End-info=======*/
@@ -150,7 +156,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 
 /*=======End-team=======*/
@@ -167,7 +173,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -182,7 +188,7 @@ body {
 }
 
 .contact-address {
-  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -213,14 +219,14 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color);
   background-color: #f5f4fa;
   cursor: pointer;
 }
 
 .menu-button:hover,
 .menu-button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 
@@ -233,7 +239,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--color);
 }
 
 .projects-service {
@@ -241,7 +247,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 
 .projects-link {
